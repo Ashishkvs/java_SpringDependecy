@@ -33,7 +33,7 @@ ____________________________________________________________________
     {
        ApplicationContext context=new ClassPathXmlApplicationContext("com/imagegrafia/cfgs/applicationContext.xml");
 
-       Student std=context.getBean(Student.class);  //Spring will take of Object Creation using Property value from xml file
+       Student std=context.getBean(Student.class);  //Spring will takecare of Object Creation using Property value from xml file
        System.out.println(std);
  
     }
