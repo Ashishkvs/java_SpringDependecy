@@ -3,14 +3,16 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="student" class="com.imagegrafia.model.Student">
-<property name="name" value="Ashish"/>
-<property name="id" value="100"/>
-<property name="school" ref="school"/>
-</bean>
+	<!-- Pojo/Beans configuration -->
+	<bean id="student" class="com.imagegrafia.model.Student">
+		<property name="name" value="Ashish" />
+		<property name="id" value="100" />
+		<property name="school" ref="school" />
+	</bean>
 
-<bean id="school" class="com.imagegrafia.model.School">
-<property name="name" value="KVS"/>
-<property name="address" value="saharsa Bihar"></property>
-</bean>
+	<bean id="school" class="com.imagegrafia.model.School">
+		<property name="name" value="KVS" />
+		<property name="address" value="saharsa Bihar"></property>
+	</bean>
+
 </beans>
