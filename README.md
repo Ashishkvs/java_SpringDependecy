@@ -8,7 +8,7 @@ Spring dependecy Injection use and cases
       --Spring Expression
 (1)#######Create Model/Bean/POJO class of STUDENT and SCHOOL with getter and setter
 (2)#######Create Spring BEan Config applicationContext.xml file to reg beans
-___________________________________________________________________________
+###___________________________________________________________________________
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -26,9 +26,9 @@ ___________________________________________________________________________
 
 </bean>
 </beans>
-_________________________________________________________________________
+####_________________________________________________________________________
 (3)######Create ApplicationContext ref in main Method and call the bean object to inject value to corresponding BEANS/POJO class
-____________________________________________________________________
+####____________________________________________________________________
  public static void main( String[] args )
     {
        ApplicationContext context=new ClassPathXmlApplicationContext("com/imagegrafia/cfgs/applicationContext.xml");
